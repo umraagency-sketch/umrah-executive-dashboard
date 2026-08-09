@@ -1,0 +1,16 @@
+{
+  "report_week": "2026-W31",
+  "data_through": "2026-08-08",
+  "total_pilgrims": 5806,
+  "platforms_count": 6,
+  "entered": 1876,
+  "entered_percent": 32.3,
+  "entry_coverage": {"recorded": 1804, "due": 2474, "percent": 72.9, "needs_matching": 670},
+  "exit_coverage": {"recorded": 814, "due": 1107, "percent": 73.5, "needs_matching": 293},
+  "timing_discipline_percent": 76.1,
+  "enrichment": {"pilgrims": 729, "percent": 12.6},
+  "next_week": {"period": "9–15 أغسطس", "expected": 1366, "daily_peak": 405, "peak_date": "11 أغسطس"},
+  "status": {"future": 3260, "inside": 991, "completed": 885, "needs_entry_match": 670},
+  "platform_share": {"واكا ناو": 94.3, "بوك مي": 2.7, "تأشير": 2.6, "شير مي تريب": 0.3, "أخرى": 0.1},
+  "company_share": {"الخدمة الذهبية": 45.0, "أوتاد مكة": 25.8, "لين العقود": 14.3, "المعمورة": 12.4}
+}
