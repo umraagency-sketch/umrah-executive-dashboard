@@ -21,7 +21,7 @@
     .concentration{display:grid;grid-template-columns:1fr 1fr;gap:18px}.row{display:grid;grid-template-columns:130px 1fr 90px;align-items:center;gap:12px;margin:15px 0}.track{height:15px;background:#ece6da;border-radius:99px;overflow:hidden}.fill{height:100%;background:linear-gradient(90deg,var(--teal),var(--blue));border-radius:99px}.companies .fill{background:linear-gradient(90deg,var(--gold),#e3bd70)}
     .facts{display:flex;gap:28px;margin-top:22px}.facts b{font-size:2rem;display:block}.decisions{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}.decision{border-top:4px solid var(--gold)}
     footer{padding:28px 6vw;border-top:1px solid var(--line);color:var(--muted)}
-    dialog{max-width:680px;border:0;border-radius:22px;padding:28px;background:var(--card);color:var(--ink);box-shadow:var(--shadow)}dialog::backdrop{background:rgba(8,30,34,.68)}dialog button{margin-top:18px}
+    dialog{max-width:680px;border:0;border-radius:22px;padding:28px;background:var(--card);color:var(--ink);box-shadow:var(--shadow)}dialog::backdrop{background:rgba(8,30,34,.68)}dialog button{margin-top:18px}.about-link{display:inline-block;color:var(--teal);font-weight:800;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:2px}.about-link:hover{color:var(--gold)}
     .reveal{animation:fade .7s ease both}@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}@keyframes rise{from{height:0}}
     @media(max-width:900px){nav{align-items:flex-start}.navlinks{display:none}.hero,.movement,.concentration,.state-layout{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.decisions{grid-template-columns:1fr}.donut{width:220px}}
     @media(max-width:540px){section{padding:55px 5vw}.cards{grid-template-columns:1fr}.actions .alt{display:none}.legend{grid-template-columns:1fr}.facts{flex-wrap:wrap}.row{grid-template-columns:100px 1fr 70px}}
@@ -52,7 +52,7 @@
     </section>
   </main>
   <footer>المصدر: تقرير المعتمرين الأفراد مع تفاصيل الدخول والخروج · الاحتساب بمجموع «عدد المعتمرين»</footer>
-  <dialog id="dataDialog"><h3>عن البيانات</h3><p>تعرض الصفحة أعداد المعتمرين والنسب التجميعية فقط. الحالات الواردة غير متداخلة، وتم احتساب مؤشرات الدخول والخروج على المستحقين حتى تاريخ التحديث.</p><p>آخر تحديث للبيانات: 15 أغسطس 2026. المصدر: ملف تقرير المعتمرين الأفراد المُستخرج في 16 أغسطس 2026.</p><button class="btn" onclick="dataDialog.close()">إغلاق</button></dialog>
+  <dialog id="dataDialog"><h3>عن البيانات</h3><p>تعرض الصفحة أعداد المعتمرين والنسب التجميعية فقط. الحالات الواردة غير متداخلة، وتم احتساب مؤشرات الدخول والخروج على المستحقين حتى تاريخ التحديث.</p><p>آخر تحديث للبيانات: 15 أغسطس 2026. المصدر: ملف تقرير المعتمرين الأفراد المُستخرج في 16 أغسطس 2026.</p><p><a class="about-link" href="https://umraagency-sketch.github.io/umrah-executive-dashboard/" target="_blank" rel="noopener noreferrer">رابط الداشبورد المباشر ↗</a></p><button class="btn" onclick="dataDialog.close()">إغلاق</button></dialog>
   <script>
     function toggleFull(){if(!document.fullscreenElement){document.documentElement.requestFullscreen?.()}else{document.exitFullscreen?.()}}
     const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('reveal')}),{threshold:.12});document.querySelectorAll('.card,.panel,.signal').forEach(e=>observer.observe(e));
