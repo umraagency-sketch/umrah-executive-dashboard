@@ -9,7 +9,7 @@
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.55}
     nav{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:14px 5vw;background:rgba(245,241,232,.93);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
     .brand{font-weight:800;color:var(--teal)}.navlinks{display:flex;gap:8px}.navlinks a{color:var(--ink);text-decoration:none;padding:8px 13px;border-radius:999px}.navlinks a:hover{background:#e7e0d2}
-    button{font:inherit;cursor:pointer;border:0}.actions{display:flex;gap:8px}.btn{padding:9px 14px;border-radius:999px;background:var(--teal);color:white}.btn.alt{background:transparent;color:var(--teal);border:1px solid var(--teal)}
+    button,select{font:inherit}.actions{display:flex;gap:8px;align-items:center}.btn{cursor:pointer;border:0;padding:9px 14px;border-radius:999px;background:var(--teal);color:white}.btn.alt{background:transparent;color:var(--teal);border:1px solid var(--teal)}.version-select{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 12px;cursor:pointer}
     .meeting-btn{position:fixed;left:24px;bottom:24px;z-index:50;padding:13px 20px;border-radius:999px;background:var(--gold);color:#172d30;font-weight:900;box-shadow:0 12px 30px rgba(16,42,46,.28);border:2px solid rgba(255,255,255,.8)}.meeting-btn:hover{transform:translateY(-2px)}
     section{min-height:100vh;padding:72px 6vw;display:flex;flex-direction:column;justify-content:center}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:.04em}.kicker{color:var(--muted);font-size:.95rem}
     h1{font-size:clamp(2.5rem,6vw,5.6rem);line-height:1.05;margin:14px 0 22px;max-width:1000px}h2{font-size:clamp(2rem,4vw,4rem);line-height:1.1;margin:10px 0 18px}h3{margin:4px 0 18px;font-size:1.25rem}.lead{font-size:1.2rem;color:var(--muted);max-width:800px}
@@ -32,7 +32,7 @@
 </head>
 <body>
   <button class="meeting-btn" onclick="toggleFull()" aria-label="تشغيل عرض الاجتماع بملء الشاشة">⛶ عرض الاجتماع</button>
-  <nav aria-label="أقسام التقرير"><div class="brand">العمرة المباشرة للأفراد</div><div class="navlinks"><a href="#overview">النظرة التنفيذية</a><a href="#movement">الحركة الزمنية</a><a href="#accommodation">الإقامة الحالية</a><a href="#services">الخدمات</a><a href="#concentration">تركيز القناة</a></div><div class="actions"><button class="btn alt" onclick="dataDialog.showModal()">عن البيانات</button><button class="btn" onclick="toggleFull()">⛶ عرض الاجتماع</button></div></nav>
+  <nav aria-label="أقسام التقرير"><div class="brand">العمرة المباشرة للأفراد</div><div class="navlinks"><a href="#overview">النظرة التنفيذية</a><a href="#movement">الحركة الزمنية</a><a href="#accommodation">الإقامة الحالية</a><a href="#services">الخدمات</a><a href="#concentration">تركيز القناة</a></div><div class="actions"><label><span class="kicker">الإصدار </span><select class="version-select" aria-label="اختيار إصدار التقرير" onchange="if(this.value)location.href=this.value"><option value="" selected>الأسبوع 36 · الحالي</option><option value="versions/week-35.html">الأسبوع 35 · السابق</option></select></label><button class="btn alt" onclick="dataDialog.showModal()">عن البيانات</button><button class="btn" onclick="toggleFull()">⛶ عرض الاجتماع</button></div></nav>
   <main>
     <section id="overview">
       <div class="kicker">البيانات حتى 5 سبتمبر 2026 · الأسبوع 36</div><div class="eyebrow">01 — النظرة التنفيذية</div>
