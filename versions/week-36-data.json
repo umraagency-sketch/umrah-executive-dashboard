@@ -1,0 +1,14 @@
+{
+  "report_week": "2026-W36",
+  "data_through": "2026-09-05",
+  "total_pilgrims": 18760,
+  "entered": 8821,
+  "entered_percent": 47.0,
+  "entry_coverage": {"recorded": 5591, "due": 9735, "percent": 57.4, "needs_matching": 4144},
+  "exit_coverage": {"recorded": 3138, "due": 4992, "percent": 62.9, "needs_matching": 1854},
+  "enrichment": {"pilgrims": 10019, "percent": 53.4},
+  "ground_service": {"pilgrims": 15419, "percent": 82.2},
+  "next_week": {"period": "6–12 سبتمبر", "expected": 2351, "daily_peak": 496, "peak_date": "6 سبتمبر"},
+  "status": {"future": 5544, "inside": 2187, "completed": 3544, "needs_entry_match": 4144, "missing_schedule": 3341},
+  "archived_on": "2026-09-14"
+}

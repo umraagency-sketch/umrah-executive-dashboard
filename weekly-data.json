@@ -1,26 +1,48 @@
 {
-  "report_week": "2026-W36",
-  "data_through": "2026-09-05",
-  "total_pilgrims": 18760,
-  "platforms_count": 6,
-  "entered": 8821,
-  "entered_percent": 47.0,
-  "entry_coverage": {"recorded": 5591, "due": 9735, "percent": 57.4, "needs_matching": 4144},
-  "exit_coverage": {"recorded": 3138, "due": 4992, "percent": 62.9, "needs_matching": 1854},
-  "timing_discipline_percent": 68.2,
-  "enrichment": {"pilgrims": 10019, "percent": 53.4, "types": {"زيارة مزارات": 6480, "زيارة المشاعر": 3537, "Visit shrines": 2}},
-  "ground_service": {"pilgrims": 15419, "percent": 82.2, "source_labels_count": 2},
-  "next_week": {"period": "6–12 سبتمبر", "expected": 2351, "daily_peak": 496, "peak_date": "6 سبتمبر"},
-  "following_weeks": [{"period": "13–19 سبتمبر", "expected": 1376}, {"period": "20–26 سبتمبر", "expected": 662}],
-  "status": {"future": 5544, "inside": 2187, "completed": 3544, "needs_entry_match": 4144, "missing_schedule": 3341},
+  "report_week": "2026-W37",
+  "data_through": "2026-09-13",
+  "total_pilgrims": 22064,
+  "platforms_count": 1,
+  "entered": 11627,
+  "entered_percent": 52.7,
+  "entry_coverage": {"recorded": 11085, "due": 15644, "percent": 70.9, "needs_matching": 4559},
+  "exit_coverage": {"recorded": 6396, "due": 9988, "percent": 64.0, "needs_matching": 3592},
+  "timing_discipline_percent": 53.9,
+  "enrichment": {"pilgrims": 15024, "percent": 68.1, "types": {"زيارة مزارات": 9821, "زيارة المشاعر": 4717, "جلب الهدايا": 242, "زيارة متحف الوحي": 242, "Visit shrines": 2}},
+  "ground_service": {"pilgrims": 22064, "percent": 100.0, "source_labels_count": 3},
+  "next_week": {"period": "14–20 سبتمبر", "expected": 2452, "daily_peak": 681, "peak_date": "16 سبتمبر"},
+  "following_weeks": [{"period": "21–27 سبتمبر", "expected": 1352}, {"period": "28 سبتمبر–4 أكتوبر", "expected": 2002}],
+  "status": {"future": 6420, "inside": 4379, "completed": 6706, "needs_entry_match": 4559, "missing_schedule": 0},
   "operational_snapshot": {
-    "as_of": "2026-09-06",
-    "visas_cumulative": 18747,
-    "entries_cumulative": 9206,
-    "departures_cumulative": 4869,
-    "currently_present": 4337,
-    "last_seven_days": {"period": "2026-08-31/2026-09-06", "visas": 1305, "entries": 2530, "departures": 1628},
-    "daily_data_partial": true
+    "as_of": "2026-09-14",
+    "source": "service_provider_details",
+    "visas_cumulative": 21692,
+    "pilgrims_recorded": 11781,
+    "pilgrims_vs_visas_percent": 54.0,
+    "departures_cumulative": 7033,
+    "currently_present": 4748,
+    "departure_percent": 60.0,
+    "departure_percent_calculated": 59.7,
+    "currently_present_percent": 40.0,
+    "issued_today_season_percent": 0.53,
+    "issued_today_detailed": 116,
+    "cancelled_without_entry": 55,
+    "countries_of_origin_count": 38,
+    "agents_count": 79,
+    "companies_count": 17,
+    "difference_vs_main_entries": 154,
+    "difference_vs_main_exits": 173
+  },
+  "cumulative_movement": {"as_of": "2026-09-14", "visas": 21653, "entries": 11781, "departures": 7033, "currently_present": 4748, "difference_vs_detailed_visas": 39},
+  "daily_movement": {"period": "2026-09-07/2026-09-13", "visas": 2790, "entries": 2011, "departures": 1941, "latest_day": {"date": "2026-09-14", "visas": 77, "entries": 169, "departures": 170}},
+  "service_provider_departures": {
+    "top_by_pilgrims": [
+      {"company": "الخدمة الذهبية", "pilgrims": 3697, "departed": 2634, "departure_percent": 71.2},
+      {"company": "المعمورة", "pilgrims": 3531, "departed": 1606, "departure_percent": 45.5},
+      {"company": "أوتاد مكة", "pilgrims": 1914, "departed": 1303, "departure_percent": 68.1},
+      {"company": "رحاب مكة", "pilgrims": 1014, "departed": 273, "departure_percent": 26.9}
+    ],
+    "company_classifications": {"نطاق أخضر": 6, "نطاق أصفر": 35, "نطاق برتقالي": 38}
   },
   "current_nationalities": {
     "total": 4337,
@@ -34,53 +56,53 @@
     "other": {"pilgrims": 54, "percent": 1.2}
   },
   "issued_visas_by_company": {
-    "total": 18767,
-    "companies_count": 15,
-    "top_three_pilgrims": 15465,
-    "top_three_percent": 82.4,
+    "total": 21692,
+    "companies_count": 17,
+    "top_three_pilgrims": 18168,
+    "top_three_percent": 83.8,
     "top": [
-      {"company": "المعمورة", "visas": 6667, "percent": 35.5},
-      {"company": "الخدمة الذهبية", "visas": 5880, "percent": 31.3},
-      {"company": "أوتاد مكة", "visas": 2918, "percent": 15.5},
-      {"company": "رحاب مكة", "visas": 1277, "percent": 6.8}
-    ]
+      {"company": "المعمورة", "visas": 8050, "percent": 37.1},
+      {"company": "الخدمة الذهبية", "visas": 6863, "percent": 31.6},
+      {"company": "أوتاد مكة", "visas": 3255, "percent": 15.0},
+      {"company": "رحاب مكة", "visas": 1318, "percent": 6.1}
+    ],
+    "as_of": "2026-09-14"
   },
   "issued_visas_by_nationality": {
-    "total": 18767,
-    "nationalities_count": 34,
+    "total": 21692,
+    "nationalities_count": 38,
     "top": [
-      {"nationality": "نيجيريا", "visas": 17886, "percent": 95.3},
-      {"nationality": "باكستان", "visas": 368, "percent": 2.0},
-      {"nationality": "تونس", "visas": 91, "percent": 0.5},
+      {"nationality": "نيجيريا", "visas": 20688, "percent": 95.4},
+      {"nationality": "باكستان", "visas": 430, "percent": 2.0},
+      {"nationality": "تونس", "visas": 92, "percent": 0.4},
       {"nationality": "إثيوبيا", "visas": 79, "percent": 0.4}
     ],
     "nigeria_current_percent": 94.6,
-    "nigeria_issued_percent": 95.3
+    "nigeria_issued_percent": 95.4,
+    "as_of": "2026-09-14",
+    "difference_from_main_report": 372
   },
   "current_accommodation": {
-    "present_total": 4337,
-    "makkah": {"pilgrims": 2158, "percent": 49.8, "hotels_count": 69, "top_hotel_pilgrims": 1065, "top_hotel_percent": 49.4, "top_five_percent": 74.5},
-    "madinah": {"pilgrims": 716, "percent": 16.5, "hotels_count": 32, "top_hotel_pilgrims": 426, "top_hotel_percent": 59.5, "top_five_percent": 84.6},
-    "hosting": {"pilgrims": 6, "percent": 0.1},
+    "as_of": "2026-09-14",
+    "present_total": 4748,
+    "makkah": {"pilgrims": 2575, "percent": 54.2, "hotels_count": 68, "top_hotel": "دانانتارا بيركاه", "top_hotel_pilgrims": 1431, "top_hotel_percent": 55.6, "top_five_percent": 75.5},
+    "madinah": {"pilgrims": 345, "percent": 7.3, "hotels_count": 20, "top_hotel": "مادن", "top_hotel_pilgrims": 154, "top_hotel_percent": 44.6, "top_five_percent": 86.7},
+    "hosting": {"pilgrims": 2, "percent": 0.0},
     "no_booking": {
-      "pilgrims": 1457,
-      "percent": 33.6,
-      "companies_with_cases": 8,
-      "top_three_pilgrims": 1388,
-      "top_three_percent": 95.3,
-      "top_companies": [
-        {"company": "المعمورة", "pilgrims": 540, "share_of_no_booking": 37.1, "rate_within_company": 33.1},
-        {"company": "الخدمة الذهبية", "pilgrims": 447, "share_of_no_booking": 30.7, "rate_within_company": 37.3},
-        {"company": "أوتاد مكة", "pilgrims": 401, "share_of_no_booking": 27.5, "rate_within_company": 56.6}
-      ]
+      "pilgrims": 1826,
+      "percent": 38.5,
+      "company_breakdown_available": false
     },
     "reconciled": true
   },
-  "platform_share": {"واكا ناو": 78.2, "غير مكتمل": 17.8, "بوك مي": 1.8, "تأشير": 1.7, "أخرى": 0.5},
-  "company_share": {"الخدمة الذهبية": 28.0, "المعمورة": 27.7, "أوتاد مكة": 11.5, "رحاب مكة": 5.6},
-  "companies_count": 15,
-  "identified_markets_count": 34,
-  "unmapped_agent_ids": 7,
-  "average_stay_days": 14.1,
-  "source_quality": {"arabic_text_corrupted": true, "missing_platform_or_company": 3347, "grand_total_row_excluded": true, "visa_totals_by_source": {"main_report": 18760, "cumulative": 18747, "nationality_sum": 18767, "company_sum": 18767}, "daily_unposted_visas": 20, "probable_refresh_timing_difference": true, "requires_source_confirmation": true}
+  "issued_visas_by_ota": {"total": 21692, "platforms_count": 6, "top": [{"platform": "واكا ناو", "visas": 20781, "percent": 95.8}, {"platform": "بوك مي", "visas": 437, "percent": 2.0}, {"platform": "تأشير", "visas": 391, "percent": 1.8}, {"platform": "شير مي تريب", "visas": 77, "percent": 0.4}, {"platform": "وي قو", "visas": 4, "percent": 0.0}, {"platform": "المطار", "visas": 2, "percent": 0.0}], "as_of": "2026-09-14"},
+  "platform_share": {"واكا ناو": 95.8, "بوك مي": 2.0, "تأشير": 1.8, "شير مي تريب": 0.4, "أخرى": 0.0},
+  "company_share": {"المعمورة": 36.2, "الخدمة الذهبية": 30.8, "أوتاد مكة": 16.9, "رحاب مكة": 6.0},
+  "companies_count": 17,
+  "identified_markets_count": 39,
+  "nationalities_count": 37,
+  "unmapped_agent_ids": 0,
+  "average_stay_nights": 13.9,
+  "average_stay_source_value": 13.8966026498718,
+  "source_quality": {"arabic_text_corrupted": false, "missing_platform_or_company": 0, "grand_total_row_excluded": false, "all_expected_dates_present": true, "stale_supplemental_snapshot_as_of": "2026-09-06", "requires_source_confirmation": true}
 }
